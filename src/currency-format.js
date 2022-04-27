@@ -37,7 +37,7 @@ const propTypes = {
     PropTypes.string
   ]),
   isNumericString: PropTypes.bool,
-  customInput: PropTypes.func,
+  customInput: PropTypes.node,
   allowNegative: PropTypes.bool,
   onValueChange: PropTypes.func,
   onKeyDown: PropTypes.func,
